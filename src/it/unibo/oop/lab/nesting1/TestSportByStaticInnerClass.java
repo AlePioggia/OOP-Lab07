@@ -1,6 +1,5 @@
 package it.unibo.oop.lab.nesting1;
 
-import it.unibo.oop.lab.socialnetwork.SocialNetworkUserImpl;
 import it.unibo.oop.lab.socialnetwork.User;
 
 /**

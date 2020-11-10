@@ -42,8 +42,8 @@ public enum Sport {
 	TENNIS(Place.OUTDOOR,1,"Tennis"),
 	BIKE(Place.OUTDOOR,1,"Bike"),
 	F1(Place.OUTDOOR,1,"F1"),
-	MOTOGP(Place.INDOOR,1,"MotoGP"),
-	SOCCER(Place.INDOOR,11,"Soccer");
+	MOTOGP(Place.OUTDOOR,1,"MotoGP"),
+	SOCCER(Place.OUTDOOR,11,"Soccer");
 
     /*
      * TODO
@@ -85,7 +85,7 @@ public enum Sport {
      */
 	
 	public boolean isIndividualSport() {
-		return this.noTeamMembers < 2;
+		return this.noTeamMembers == 1;
 	}
 	
 	/*

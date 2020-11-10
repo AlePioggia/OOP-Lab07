@@ -8,7 +8,6 @@ package it.unibo.oop.lab.nesting2;
  * @param <T>
  */
 public interface Acceptor<T> {
-
     /**
      * Accept a new element. In case the element is not part of the set
      * sequence, throws a {@link Acceptor.ElementNotAcceptedException}.
